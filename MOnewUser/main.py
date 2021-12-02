@@ -10,6 +10,13 @@ Created on Sun Nov 28 20:37:51 2021
 ##### Smart Contract functions #####
 ####################################
 
+# url for connection with blockchain
+url = 'HTTP://127.0.0.1:7545'
+
+# Smart contract address and ABI
+smartContractAddr = "0xde7C6a0dCDC8b033d045B73d7c0a134cDFa476C5"
+
+
 from web3 import Web3
 
 def connectToBlockchain(url, contract_addr, contract_abi):
@@ -81,10 +88,10 @@ priv_wallet, pub_wallet = getWallet()
 #public_keyString = str(public_key)
 
 # url for connection with blockchain
-url = 'HTTP://127.0.0.1:7545'
+#url = 'HTTP://127.0.0.1:7545'
 
 # Smart contract address and ABI
-smartContractAddr = "0xde7C6a0dCDC8b033d045B73d7c0a134cDFa476C5"
+#smartContractAddr = "0xde7C6a0dCDC8b033d045B73d7c0a134cDFa476C5"
 smartContractABI = [
 	{
 		"constant": True,
@@ -665,10 +672,8 @@ class MilitaryOrganization:
         ID: {self.idNumber}
         Name: {self.name}
         Email: {self.email}
-        PrivateKey: {self.privateKey}
-        PublicKey: {self.publicKey}
-        PrivateWallet: {self.privateWallet}
         PublicWallet: {self.publicWallet}
+        PublicKey: {self.publicKey}
         '''
         return text
 
@@ -695,7 +700,7 @@ btn_write.grid(row=2, column = 0, sticky="ew", padx=5, pady=5)
 text_otherMOid = tk.Label(fr_buttons, text="Id Number of the other \nMilitary Organization (MO):")
 text_otherMOid.grid(row=3, column = 0, sticky="ew", padx=5, pady=5)
 entryOfMOId = tk.Entry(fr_buttons)
-entryOfMOId.insert(10, "11032")
+entryOfMOId.insert(10, "")
 entryOfMOId.grid(row=4, column = 0, sticky="ew", padx=5, pady=5)
 btn_otherMOgetPKI = tk.Button(fr_buttons, text="Get MO PKI data", command= lambda: getMOPKI(otherMO, text_otherMOPKIdata))
 btn_otherMOgetPKI.grid(row=5, column = 0, sticky="ew", padx=5, pady=10)
