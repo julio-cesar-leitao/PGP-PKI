@@ -12,9 +12,10 @@ Created on Sun Nov 28 20:37:51 2021
 
 # url for connection with blockchain
 url = 'HTTP://127.0.0.1:7545'
+url = 'https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161'
 
 # Smart contract address and ABI
-smartContractAddr = "0xde7C6a0dCDC8b033d045B73d7c0a134cDFa476C5"
+smartContractAddr = "0x054e26bF9654Aef2c84457Da6F7fa29205B1ec68"
 
 
 from web3 import Web3
