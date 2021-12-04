@@ -4,7 +4,7 @@ This repository contains a Proof of Concept in an encrypted messaging system in 
 
 # Example
 
-A private blockchain network was created to test the application with `GETH Version: 1.10.13-stable, in it there are 2 Military Organizations (MO) using the DApp: MOJulio and MOricardo. PGP (in this case RSA) and wallet public and private keys are already configured in their respective folders.
+A private blockchain network was created to test the application with `GETH Version: 1.10.13-stable`, in it there are 2 Military Organizations (MO) using the DApp: MOJulio and MOricardo. PGP (in this case RSA) and wallet public and private keys are already configured in their respective folders.
 
 To run the example, do the following:
 
