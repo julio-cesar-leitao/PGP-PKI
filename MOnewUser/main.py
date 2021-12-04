@@ -30,7 +30,7 @@ def resetAddr(MOId, newAddr, priv_key, pub_key, contract, w3):
     nonce = w3.eth.getTransactionCount(address)
     transaction = contract.functions.resetAddr(MOId,newAddr).buildTransaction({
         'gas': 70000,
-        'gasPrice': w3.toWei('1', 'gwei'),
+        'gasPrice': w3.toWei('2.5', 'gwei'),
         'from': pub_key,
         'nonce': nonce
         })
@@ -43,7 +43,7 @@ def resetEmail(MOId, newEmail, priv_key, pub_key, contract, w3):
     nonce = w3.eth.getTransactionCount(address)
     transaction = contract.functions.resetEmail(MOId,newEmail).buildTransaction({
         'gas': 70000,
-        'gasPrice': w3.toWei('1', 'gwei'),
+        'gasPrice': w3.toWei('2.5', 'gwei'),
         'from': pub_key,
         'nonce': nonce
         })
@@ -56,7 +56,7 @@ def resetPublicKey(MOId, newPublicKey, priv_key, pub_key, contract, w3):
     nonce = w3.eth.getTransactionCount(address)
     transaction = contract.functions.resetPublicKey(MOId,newPublicKey).buildTransaction({
         'gas': 700000,
-        'gasPrice': w3.toWei('1', 'gwei'),
+        'gasPrice': w3.toWei('2.5', 'gwei'),
         'from': pub_key,
         'nonce': nonce
         })
