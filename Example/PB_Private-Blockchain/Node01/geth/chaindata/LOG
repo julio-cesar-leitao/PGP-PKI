@@ -155,3 +155,23 @@
 12:48:32.422268 db@open done T·78.795373ms
 12:48:32.543280 db@close closing
 12:48:32.543578 db@close done T·275.997µs
+=============== Dec 4, 2021 (-03) ===============
+12:59:34.434257 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:59:34.434534 version@stat F·[3 1] S·175KiB[642B 174KiB] Sc·[0.75 0.00]
+12:59:34.434566 db@open opening
+12:59:34.434664 journal@recovery F·1
+12:59:34.436790 journal@recovery recovering @35
+12:59:34.447923 memdb@flush created L0@37 N·1 S·223B "unc..own,v3178":"unc..own,v3178"
+12:59:34.451946 version@stat F·[4 1] S·175KiB[865B 174KiB] Sc·[1.00 0.00]
+12:59:34.504588 db@janitor F·7 G·0
+12:59:34.504638 db@open done T·70.051535ms
+12:59:34.504743 table@compaction L0·4 -> L1·1 S·175KiB Q·3179
+12:59:34.527155 table@build created L1@40 N·2423 S·174KiB "\x01.O..Dw\x85,v1381":"\xff\x84\x94..\x15*a,v3088"
+12:59:34.527236 version@stat F·[0 1] S·174KiB[0B 174KiB] Sc·[0.00 0.00]
+12:59:34.557762 table@compaction committed F-4 S-901B Ke·0 D·4 T·52.96029ms
+12:59:34.558935 table@remove removed @34
+12:59:34.559274 table@remove removed @31
+12:59:34.559427 table@remove removed @28
+12:59:34.559538 table@remove removed @27
+12:59:38.684862 db@close closing
+12:59:38.685060 db@close done T·196.101µs

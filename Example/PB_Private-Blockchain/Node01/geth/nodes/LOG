@@ -141,3 +141,19 @@
 12:48:32.540286 db@janitor F·9 G·0
 12:48:32.540385 db@open done T·84.946352ms
 12:48:32.540500 table@compaction L0·6 -> L1·1 S·1KiB Q·21
+=============== Dec 4, 2021 (-03) ===============
+12:59:34.595263 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:59:34.595541 version@stat F·[6 1] S·1KiB[972B 181B] Sc·[1.50 0.00]
+12:59:34.595572 db@open opening
+12:59:34.595678 journal@recovery F·1
+12:59:34.597425 journal@recovery recovering @31
+12:59:34.599610 version@stat F·[6 1] S·1KiB[972B 181B] Sc·[1.50 0.00]
+12:59:34.645465 db@janitor F·10 G·1
+12:59:34.645500 db@janitor removing table-33
+12:59:34.645593 db@open done T·50.005757ms
+12:59:34.645653 table@compaction L0·6 -> L1·1 S·1KiB Q·21
+12:59:34.648337 db@close closing
+12:59:34.656881 table@build created L1@35 N·2 S·181B "loc..seq,v20":"version,v1"
+12:59:34.656930 table@build exiting
+12:59:34.656947 table@build revert @35
+12:59:34.657761 db@close done T·9.423051ms

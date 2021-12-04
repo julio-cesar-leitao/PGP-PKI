@@ -1,0 +1,30 @@
+INFO [12-04|12:59:34.432] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [12-04|12:59:34.433] Found deprecated node list file /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [12-04|12:59:34.433] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:59:34.433] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:59:34.434] Allocated cache and file handles         database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-04|12:59:34.577] Opened ancient database                  database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata/ancient readonly=false
+INFO [12-04|12:59:34.578] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:59:34.579] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/ethash count=3
+INFO [12-04|12:59:34.579] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:59:34.579] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:59:34.586] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=1h41m54s
+INFO [12-04|12:59:34.586] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h41m54s
+INFO [12-04|12:59:34.586] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h41m54s
+INFO [12-04|12:59:34.593] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-04|12:59:34.594] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:59:34.594] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:59:34.594] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-04|12:59:34.594] Unclean shutdown detected                booted=2021-12-04T12:16:09-0300 age=43m25s
+WARN [12-04|12:59:34.594] Unclean shutdown detected                booted=2021-12-04T12:22:52-0300 age=36m42s
+WARN [12-04|12:59:34.595] Unclean shutdown detected                booted=2021-12-04T12:27:42-0300 age=31m52s
+WARN [12-04|12:59:34.595] Unclean shutdown detected                booted=2021-12-04T12:34:13-0300 age=25m21s
+WARN [12-04|12:59:34.595] Unclean shutdown detected                booted=2021-12-04T12:34:46-0300 age=24m48s
+WARN [12-04|12:59:34.595] Unclean shutdown detected                booted=2021-12-04T12:48:32-0300 age=11m2s
+INFO [12-04|12:59:34.595] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+INFO [12-04|12:59:34.647] New local node record                    seq=1,638,565,161,320 id=d7401dc51d965909 ip=127.0.0.1 udp=0 tcp=30301
+INFO [12-04|12:59:34.648] Started P2P networking                   self="enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@127.0.0.1:30301?discport=0"
+WARN [12-04|12:59:34.647] The ipc endpoint is longer than 104 characters.  endpoint=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc
+WARN [12-04|12:59:34.648] IPC opening failed                       url=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc error="listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument"
+INFO [12-04|12:59:38.123] Mapped network port                      proto=tcp extport=30301 intport=30301 interface="UPNP IGDv1-PPP1"
+Fatal: Error starting protocol stack: listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument

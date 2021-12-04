@@ -1,6 +1,0 @@
-admin.addPeer("enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@179.111.79.236:30301?discport=0")
-eth.blockNumber
-admin.peers
-admin.nodeInfo
-admin.addPeer("enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@127.0.0.1:30301?discport=0")
-admin.peers
