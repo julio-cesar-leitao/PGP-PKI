@@ -1,148 +1,34 @@
-INFO [12-04|10:45:10.235] Maximum peer count                       ETH=50 LES=0 total=50
-INFO [12-04|10:45:10.236] Set global gas cap                       cap=50,000,000
-INFO [12-04|10:45:10.236] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
-INFO [12-04|10:45:10.236] Allocated cache and file handles         database=/Users/juliocesar/Downloads/debug/Node03/geth/chaindata cache=512.00MiB handles=5120
-INFO [12-04|10:45:10.312] Opened ancient database                  database=/Users/juliocesar/Downloads/debug/Node03/geth/chaindata/ancient readonly=false
-INFO [12-04|10:45:10.314] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
-INFO [12-04|10:45:10.315] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Downloads/debug/Node03/geth/ethash count=3
-INFO [12-04|10:45:10.315] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
-INFO [12-04|10:45:10.316] Initialising Ethereum protocol           network=1234 dbversion=8
-INFO [12-04|10:45:10.323] Loaded most recent local header          number=126 hash=bf6d50..ec9eb9 td=61,294,099 age=14m40s
-INFO [12-04|10:45:10.323] Loaded most recent local full block      number=126 hash=bf6d50..ec9eb9 td=61,294,099 age=14m40s
-INFO [12-04|10:45:10.323] Loaded most recent local fast block      number=126 hash=bf6d50..ec9eb9 td=61,294,099 age=14m40s
-WARN [12-04|10:45:10.323] Snapshot maintenance disabled (syncing) 
-INFO [12-04|10:45:10.323] Loaded local transaction journal         transactions=0 dropped=0
-INFO [12-04|10:45:10.323] Regenerated local transaction journal    transactions=0 accounts=0
-WARN [12-04|10:45:10.324] Switch sync mode from fast sync to full sync 
-INFO [12-04|10:45:10.324] Gasprice oracle is ignoring threshold set threshold=2
-INFO [12-04|10:45:10.324] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
-INFO [12-04|10:45:10.389] New local node record                    seq=1,638,566,011,171 id=4b79bd24feebb531 ip=127.0.0.1 udp=0 tcp=30303
-INFO [12-04|10:45:10.389] Started P2P networking                   self="enode://823892d076a1b453fc178f7ce0c81ecca8d221e07b6e8b13c0ce4d7fac3ff4c7e089bf3548ace665e673fce01b702ed5cd9172dbeec1561259728ac4182ab714@127.0.0.1:30303?discport=0"
-WARN [12-04|10:45:10.437] Served eth_coinbase                      reqid=3 t="66.324µs" err="etherbase must be explicitly specified"
-INFO [12-04|10:45:22.943] Looking for peers                        peercount=1 tried=0 static=0
-INFO [12-04|10:46:08.637] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.056ms mgasps=0.000 number=127 hash=cbd4c7..609ece dirty=1.72KiB
-INFO [12-04|10:46:16.824] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.767ms mgasps=0.000 number=128 hash=77ab3a..7ff19a dirty=3.43KiB
-INFO [12-04|10:46:16.830] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.201ms mgasps=0.000 number=129 hash=1fc8bb..98e393 dirty=5.15KiB
-INFO [12-04|10:46:25.118] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.262ms mgasps=0.000 number=130 hash=6b21df..ab54aa dirty=6.87KiB
-INFO [12-04|10:46:29.693] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.262ms mgasps=0.000 number=131 hash=64904e..96adb3 dirty=8.58KiB
-INFO [12-04|10:46:31.067] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.235ms mgasps=0.000 number=132 hash=dec7d5..69da2c dirty=10.30KiB
-INFO [12-04|10:46:33.810] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.216ms mgasps=0.000 number=133 hash=d96d75..194f80 dirty=12.02KiB
-INFO [12-04|10:46:38.394] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.666ms mgasps=0.000 number=134 hash=9f2d1a..ff1a9e dirty=13.73KiB
-INFO [12-04|10:46:38.582] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.393ms mgasps=0.000 number=135 hash=c1aa2a..9020e4 dirty=15.45KiB
-INFO [12-04|10:46:51.035] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.401ms mgasps=0.000 number=136 hash=6382f8..e77267 dirty=17.17KiB
-INFO [12-04|10:47:07.103] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.770ms mgasps=0.000 number=137 hash=2a6118..82c7c6 dirty=18.88KiB
-INFO [12-04|10:47:13.525] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.486ms mgasps=0.000 number=138 hash=326382..fabeaa dirty=20.60KiB
-INFO [12-04|10:47:20.156] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.450ms mgasps=0.000 number=139 hash=932ad7..8ef074 dirty=22.32KiB
-INFO [12-04|10:47:27.818] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.987ms mgasps=0.000 number=140 hash=5a261d..0c57ea dirty=24.04KiB
-INFO [12-04|10:47:39.174] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.204ms mgasps=0.000 number=141 hash=252853..86e703 dirty=25.75KiB
-INFO [12-04|10:47:55.808] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.567ms mgasps=0.000 number=142 hash=89b617..909021 dirty=27.47KiB
-INFO [12-04|10:47:59.111] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.407ms mgasps=0.000 number=143 hash=c8dca7..a5477d dirty=29.19KiB
-INFO [12-04|10:48:08.143] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.407ms mgasps=0.000 number=144 hash=008171..8f5e34 dirty=30.90KiB
-INFO [12-04|10:48:11.459] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.289ms mgasps=0.000 number=145 hash=4830ef..238615 dirty=32.62KiB
-INFO [12-04|10:56:50.608] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=3.578ms mgasps=5.869 number=146 hash=3e7986..ca4eb1 dirty=35.43KiB
-INFO [12-04|10:56:51.651] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.212ms mgasps=0.000 number=147 hash=31a919..327502 dirty=37.15KiB
-INFO [12-04|10:57:03.171] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.577ms mgasps=0.000 number=148 hash=029b02..cd4c7e dirty=38.86KiB
-INFO [12-04|10:57:03.872] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.557ms mgasps=0.000 number=149 hash=514029..d058a7 dirty=40.58KiB
-INFO [12-04|10:57:04.836] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.540ms mgasps=0.000 number=150 hash=4603ed..78506b dirty=42.30KiB
-INFO [12-04|10:57:06.205] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.067ms mgasps=0.000 number=151 hash=577d6b..15659f dirty=44.01KiB
-INFO [12-04|10:57:08.715] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.164ms mgasps=0.000 number=152 hash=b4b227..e561ef dirty=45.73KiB
-INFO [12-04|10:57:11.453] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.943ms mgasps=0.000 number=153 hash=84a989..d8603c dirty=47.45KiB
-INFO [12-04|10:57:23.755] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=1.800ms mgasps=0.000 number=154 hash=0918b5..5702c6 dirty=49.17KiB
-INFO [12-04|10:57:24.439] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=1.972ms mgasps=0.000 number=155 hash=d79682..08ca1e dirty=50.88KiB
-INFO [12-04|10:57:27.552] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.300ms mgasps=0.000 number=156 hash=05620f..6bff37 dirty=52.60KiB
-INFO [12-04|10:57:39.225] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.846ms mgasps=0.000 number=157 hash=683f12..fec148 dirty=54.32KiB
-INFO [12-04|10:57:54.337] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.274ms mgasps=0.000 number=158 hash=cd4ce4..2a89ce dirty=56.03KiB
-INFO [12-04|10:57:56.471] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.407ms mgasps=0.000 number=159 hash=726e8e..3d3bd2 dirty=57.75KiB
-INFO [12-04|10:58:00.109] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.877ms mgasps=0.000 number=160 hash=53014d..b7eac3 dirty=59.47KiB
-INFO [12-04|10:58:07.963] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=1.973ms mgasps=0.000 number=161 hash=e04910..767de5 dirty=61.18KiB
-INFO [12-04|10:58:10.000] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.303ms mgasps=0.000 number=162 hash=8ad175..a2504b dirty=62.90KiB
-INFO [12-04|10:58:10.268] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.297ms mgasps=0.000 number=163 hash=ecdf4a..748b8d dirty=64.62KiB
-INFO [12-04|10:58:13.398] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.322ms mgasps=0.000 number=164 hash=3a72b9..c577d4 dirty=66.33KiB
-INFO [12-04|10:58:32.051] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.306ms mgasps=0.000 number=165 hash=2bd599..db82ba dirty=68.05KiB
-INFO [12-04|10:58:34.377] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.071ms mgasps=0.000 number=166 hash=c7af29..015b6c dirty=69.77KiB
-INFO [12-04|10:58:37.064] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.300ms mgasps=0.000 number=167 hash=e4c336..a35d59 dirty=71.48KiB
-INFO [12-04|10:58:43.200] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.320ms mgasps=0.000 number=168 hash=56fadd..2e0843 dirty=73.20KiB
-INFO [12-04|11:02:15.320] Imported new chain segment               blocks=1 txs=1 mgas=1.374 elapsed=2.547ms mgasps=539.382 number=169 hash=c6bf22..12275f dirty=80.46KiB
-INFO [12-04|11:02:19.138] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.375ms mgasps=0.000   number=170 hash=d7db89..6e8684 dirty=82.18KiB
-INFO [12-04|11:10:59.252] Imported new chain segment               blocks=1 txs=1 mgas=0.338 elapsed=6.232ms mgasps=54.174  number=171 hash=10fe8a..9e3857 dirty=91.34KiB
-INFO [12-04|11:11:10.461] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.511ms mgasps=0.000   number=172 hash=2a946a..1556fb dirty=93.06KiB
-INFO [12-04|11:11:22.791] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.621ms mgasps=0.000   number=173 hash=4482c2..85ff80 dirty=94.78KiB
-INFO [12-04|11:11:26.181] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.278ms mgasps=0.000   number=174 hash=6e917a..6a9cbd dirty=96.49KiB
-INFO [12-04|11:11:32.619] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.984ms mgasps=0.000   number=175 hash=7dd69b..2c5a15 dirty=98.21KiB
-INFO [12-04|11:11:34.954] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.184ms mgasps=0.000   number=176 hash=d8c40e..b8cadb dirty=99.93KiB
-INFO [12-04|11:11:42.751] Imported new chain segment               blocks=1 txs=1 mgas=0.096 elapsed=2.706ms mgasps=35.410  number=177 hash=aadd59..313480 dirty=107.43KiB
-INFO [12-04|11:11:46.855] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.220ms mgasps=0.000   number=178 hash=05197c..cbb198 dirty=109.15KiB
-INFO [12-04|11:11:49.782] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.383ms mgasps=0.000   number=179 hash=047ff0..ef4dc5 dirty=110.86KiB
-INFO [12-04|11:11:51.726] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.071ms mgasps=0.000   number=180 hash=a57d55..347442 dirty=112.58KiB
-INFO [12-04|11:11:56.896] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.413ms mgasps=0.000   number=181 hash=91a603..588c20 dirty=114.30KiB
-INFO [12-04|11:11:58.817] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.527ms mgasps=0.000   number=182 hash=4da4a7..0a8ba4 dirty=116.01KiB
-INFO [12-04|11:12:01.474] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.451ms mgasps=0.000   number=183 hash=5b1335..e46d0c dirty=117.73KiB
-INFO [12-04|11:12:04.366] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.337ms mgasps=0.000   number=184 hash=bc35ec..182e0b dirty=119.45KiB
-INFO [12-04|11:12:07.345] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.477ms mgasps=0.000   number=185 hash=693fbb..881299 dirty=121.17KiB
-INFO [12-04|11:12:20.440] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.203ms mgasps=0.000   number=186 hash=9fd575..1a60b0 dirty=122.88KiB
-INFO [12-04|11:12:40.265] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.532ms mgasps=0.000   number=187 hash=42f8c7..e772e0 dirty=124.60KiB
-INFO [12-04|11:12:45.684] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.384ms mgasps=0.000   number=188 hash=66d85f..6a4e2f dirty=126.32KiB
-INFO [12-04|11:12:50.970] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.696ms mgasps=0.000   number=189 hash=5c073e..27130c dirty=128.03KiB
-INFO [12-04|11:12:53.212] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.505ms mgasps=0.000   number=190 hash=f968b6..063db0 dirty=129.75KiB
-INFO [12-04|11:13:06.039] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.408ms mgasps=0.000   number=191 hash=cd2a63..eb27f4 dirty=131.47KiB
-INFO [12-04|11:13:26.857] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.201ms mgasps=0.000   number=192 hash=e5ee81..27ad3c dirty=133.18KiB
-INFO [12-04|11:13:26.927] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.353ms mgasps=0.000   number=193 hash=c0e1cf..25476f dirty=134.90KiB
-INFO [12-04|11:13:35.083] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.320ms mgasps=0.000   number=194 hash=a6a646..f7685c dirty=136.62KiB
-INFO [12-04|11:13:41.765] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.256ms mgasps=0.000   number=195 hash=35a9c6..256dc3 dirty=138.33KiB
-INFO [12-04|11:13:45.733] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.233ms mgasps=0.000   number=196 hash=f60c97..54a3c0 dirty=140.05KiB
-INFO [12-04|11:13:49.586] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.284ms mgasps=0.000   number=197 hash=a8b012..ac8f21 dirty=141.77KiB
-INFO [12-04|11:13:49.715] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.369ms mgasps=0.000   number=198 hash=68a45e..5b4354 dirty=143.48KiB
-INFO [12-04|11:14:02.984] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.183ms mgasps=0.000   number=199 hash=f6bda4..8e8eae dirty=145.20KiB
-INFO [12-04|11:14:15.405] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.328ms mgasps=0.000   number=200 hash=666b54..656ec5 dirty=146.92KiB
-INFO [12-04|11:14:22.389] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.324ms mgasps=0.000   number=201 hash=945218..73d64f dirty=148.63KiB
-INFO [12-04|11:14:30.576] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.206ms mgasps=0.000   number=202 hash=66b3f0..a0288a dirty=150.35KiB
-INFO [12-04|11:14:38.798] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.145ms mgasps=0.000   number=203 hash=d61260..b557db dirty=152.07KiB
-INFO [12-04|11:14:58.702] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.221ms mgasps=0.000   number=204 hash=8bd383..f0c178 dirty=153.78KiB
-INFO [12-04|11:15:00.055] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.292ms mgasps=0.000   number=205 hash=822e3e..70c45c dirty=155.50KiB
-INFO [12-04|11:15:00.552] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.313ms mgasps=0.000   number=206 hash=8e5925..30d7b3 dirty=157.22KiB
-INFO [12-04|11:15:01.397] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.259ms mgasps=0.000   number=207 hash=b99d1a..84b56f dirty=158.93KiB
-INFO [12-04|11:15:10.055] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.579ms mgasps=0.000   number=208 hash=861fd3..fc16cd dirty=160.65KiB
-INFO [12-04|11:15:10.902] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.204ms mgasps=0.000   number=209 hash=0e3007..b6b17c dirty=162.37KiB
-INFO [12-04|11:15:18.012] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.216ms mgasps=0.000   number=210 hash=bddcd9..086b79 dirty=164.08KiB
-INFO [12-04|11:15:22.743] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.036ms mgasps=0.000   number=211 hash=a36e5a..095a62 dirty=165.80KiB
-INFO [12-04|11:15:25.342] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.276ms mgasps=0.000   number=212 hash=8cd72a..cab5bb dirty=167.52KiB
-INFO [12-04|11:15:28.079] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.289ms mgasps=0.000   number=213 hash=c90998..d34710 dirty=169.24KiB
-INFO [12-04|11:15:30.205] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.312ms mgasps=0.000   number=214 hash=de29e9..87159d dirty=170.95KiB
-INFO [12-04|11:15:32.165] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.075ms mgasps=0.000   number=215 hash=4f2c14..54468e dirty=172.67KiB
-INFO [12-04|11:15:38.572] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.519ms mgasps=0.000   number=216 hash=cf654b..e03775 dirty=174.39KiB
-INFO [12-04|11:15:49.573] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.331ms mgasps=0.000   number=217 hash=992b73..a6324a dirty=176.10KiB
-INFO [12-04|11:15:52.979] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.356ms mgasps=0.000   number=218 hash=16c642..19ffc1 dirty=177.82KiB
-INFO [12-04|11:15:54.014] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.272ms mgasps=0.000   number=219 hash=04365c..10f871 dirty=179.54KiB
-INFO [12-04|11:16:02.614] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.302ms mgasps=0.000   number=220 hash=e9100e..045a47 dirty=181.25KiB
-INFO [12-04|11:16:16.507] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.807ms mgasps=0.000   number=221 hash=9d993f..975da5 dirty=182.97KiB
-INFO [12-04|11:16:25.364] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.305ms mgasps=0.000   number=222 hash=c37921..979465 dirty=184.69KiB
-INFO [12-04|11:16:27.479] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.093ms mgasps=0.000   number=223 hash=cadb52..a76885 dirty=186.40KiB
-INFO [12-04|11:16:30.681] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.233ms mgasps=0.000   number=224 hash=9a193b..8fd584 dirty=188.12KiB
-INFO [12-04|11:16:38.616] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.670ms mgasps=0.000   number=225 hash=28530e..c14f87 dirty=189.84KiB
-INFO [12-04|11:16:38.959] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.581ms mgasps=0.000   number=226 hash=691889..c066ed dirty=191.55KiB
-INFO [12-04|11:16:50.601] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.517ms mgasps=0.000   number=227 hash=a40eff..2d52b0 dirty=193.27KiB
-INFO [12-04|11:17:05.571] Imported new chain segment               blocks=1 txs=1 mgas=0.338 elapsed=2.544ms mgasps=132.682 number=228 hash=90fb1e..5e3818 dirty=203.53KiB
-INFO [12-04|11:17:18.048] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.434ms mgasps=0.000   number=229 hash=92cbef..e36566 dirty=205.25KiB
-INFO [12-04|11:17:22.528] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.413ms mgasps=0.000   number=230 hash=fbde2e..376189 dirty=206.96KiB
-INFO [12-04|11:17:24.217] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.225ms mgasps=0.000   number=231 hash=a3cb84..58b67a dirty=208.68KiB
-INFO [12-04|11:17:30.691] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.415ms mgasps=0.000   number=232 hash=fcc1ae..2cf3ac dirty=210.40KiB
-INFO [12-04|11:17:34.096] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.209ms mgasps=0.000   number=233 hash=2de0e9..faeaea dirty=212.12KiB
-INFO [12-04|11:17:37.004] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.217ms mgasps=0.000   number=234 hash=1b4234..6c9634 dirty=213.83KiB
-INFO [12-04|11:17:37.374] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.035ms mgasps=0.000   number=235 hash=fab5c9..ce4a6a dirty=215.55KiB
-INFO [12-04|11:17:38.167] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.191ms mgasps=0.000   number=236 hash=6c61d7..acfc42 dirty=217.27KiB
-INFO [12-04|11:17:39.840] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.592ms mgasps=0.000   number=237 hash=0a1f95..0aaaad dirty=218.98KiB
-INFO [12-04|11:17:40.175] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.031ms mgasps=0.000   number=238 hash=954dbd..91de16 dirty=220.70KiB
-INFO [12-04|11:17:42.145] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.415ms mgasps=0.000   number=239 hash=5d556b..a85732 dirty=222.42KiB
-INFO [12-04|11:19:06.865] Looking for peers                        peercount=0 tried=0 static=0
-INFO [12-04|11:19:11.207] Ethereum protocol stopped 
-INFO [12-04|11:19:11.207] Transaction pool stopped 
-ERROR[12-04|11:19:11.207] Failed to journal state snapshot         err="snapshot [0xc3df043c3c639c0760eeb2b65d60a88687f16b11ca9564d48a86058af38c86b2] missing"
-INFO [12-04|11:19:11.208] Writing cached state to disk             block=239 hash=5d556b..a85732 root=c3df04..8c86b2
-INFO [12-04|11:19:11.208] Persisted trie from memory database      nodes=75 size=9.79KiB time="537.073µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=614 livesize=147.81KiB
-INFO [12-04|11:19:11.208] Writing cached state to disk             block=238 hash=954dbd..91de16 root=df21e8..1a66f0
-INFO [12-04|11:19:11.208] Persisted trie from memory database      nodes=5  size=1.25KiB time="49.105µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=609 livesize=146.56KiB
-INFO [12-04|11:19:11.208] Writing cached state to disk             block=112 hash=cfdd0c..e43038 root=c629c5..a7b559
-INFO [12-04|11:19:11.208] Persisted trie from memory database      nodes=0  size=0.00B   time="1.562µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=609 livesize=146.56KiB
-INFO [12-04|11:19:11.209] Writing clean trie cache to disk         path=/Users/juliocesar/Downloads/debug/Node03/geth/triecache threads=8
-INFO [12-04|11:19:11.216] Persisted the clean trie cache           path=/Users/juliocesar/Downloads/debug/Node03/geth/triecache elapsed=6.744ms
-INFO [12-04|11:19:11.216] Blockchain stopped 
+INFO [12-04|12:49:55.096] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-04|12:49:55.097] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:49:55.097] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:49:55.097] Allocated cache and file handles         database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node03/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-04|12:49:55.215] Opened ancient database                  database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node03/geth/chaindata/ancient readonly=false
+INFO [12-04|12:49:55.216] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:49:55.221] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node03/geth/ethash count=3
+INFO [12-04|12:49:55.221] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:49:55.221] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:49:55.229] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=1h32m15s
+INFO [12-04|12:49:55.229] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h32m15s
+INFO [12-04|12:49:55.229] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h32m15s
+WARN [12-04|12:49:55.230] Snapshot maintenance disabled (syncing) 
+INFO [12-04|12:49:55.230] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-04|12:49:55.230] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:49:55.230] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:49:55.231] Gasprice oracle is ignoring threshold set threshold=2
+INFO [12-04|12:49:55.231] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+INFO [12-04|12:49:55.315] New local node record                    seq=1,638,566,011,174 id=4b79bd24feebb531 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-04|12:49:55.315] Started P2P networking                   self="enode://823892d076a1b453fc178f7ce0c81ecca8d221e07b6e8b13c0ce4d7fac3ff4c7e089bf3548ace665e673fce01b702ed5cd9172dbeec1561259728ac4182ab714@127.0.0.1:30303?discport=0"
+WARN [12-04|12:49:55.359] Served eth_coinbase                      reqid=3 t="22.349µs" err="etherbase must be explicitly specified"
+INFO [12-04|12:49:57.873] Ethereum protocol stopped 
+INFO [12-04|12:49:57.873] Transaction pool stopped 
+ERROR[12-04|12:49:57.873] Failed to journal state snapshot         err="snapshot [0xc3df043c3c639c0760eeb2b65d60a88687f16b11ca9564d48a86058af38c86b2] missing"
+INFO [12-04|12:49:57.873] Writing cached state to disk             block=239 hash=5d556b..a85732 root=c3df04..8c86b2
+INFO [12-04|12:49:57.873] Persisted trie from memory database      nodes=0 size=0.00B time="4.622µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-04|12:49:57.873] Writing cached state to disk             block=238 hash=954dbd..91de16 root=df21e8..1a66f0
+INFO [12-04|12:49:57.873] Persisted trie from memory database      nodes=0 size=0.00B time="1.159µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-04|12:49:57.875] Writing cached state to disk             block=112 hash=cfdd0c..e43038 root=c629c5..a7b559
+INFO [12-04|12:49:57.875] Persisted trie from memory database      nodes=0 size=0.00B time="2.542µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-04|12:49:57.875] Writing clean trie cache to disk         path=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node03/geth/triecache threads=8
+INFO [12-04|12:49:57.882] Persisted the clean trie cache           path=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node03/geth/triecache elapsed=6.882ms
+INFO [12-04|12:49:57.882] Blockchain stopped 
+INFO [12-04|12:49:58.691] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-PPP1"

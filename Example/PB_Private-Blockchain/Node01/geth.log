@@ -1180,3 +1180,152 @@ INFO [12-04|11:19:06.867] Persisted trie from memory database      nodes=0  size
 INFO [12-04|11:19:06.868] Writing clean trie cache to disk         path=/Users/juliocesar/Downloads/debug/Node01/geth/triecache threads=8
 INFO [12-04|11:19:06.874] Persisted the clean trie cache           path=/Users/juliocesar/Downloads/debug/Node01/geth/triecache elapsed=6.315ms
 INFO [12-04|11:19:06.874] Blockchain stopped 
+INFO [12-04|12:16:09.140] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [12-04|12:16:09.144] Found deprecated node list file /Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [12-04|12:16:09.148] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:16:09.148] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:16:09.149] Allocated cache and file handles         database="/Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata" cache=512.00MiB handles=5120
+INFO [12-04|12:16:09.250] Opened ancient database                  database="/Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata/ancient" readonly=false
+INFO [12-04|12:16:09.259] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:16:09.261] Disk storage enabled for ethash caches   dir="/Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/ethash" count=3
+INFO [12-04|12:16:09.261] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:16:09.261] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:16:09.270] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=58m29s
+INFO [12-04|12:16:09.270] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=58m29s
+INFO [12-04|12:16:09.270] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=58m29s
+INFO [12-04|12:16:09.283] Loaded local transaction journal         transactions=5 dropped=5
+INFO [12-04|12:16:09.284] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:16:09.284] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:16:09.286] Gasprice oracle is ignoring threshold set threshold=2
+INFO [12-04|12:16:09.287] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+INFO [12-04|12:16:09.351] New local node record                    seq=1,638,565,161,315 id=d7401dc51d965909 ip=127.0.0.1 udp=0 tcp=30301
+INFO [12-04|12:16:09.352] Started P2P networking                   self="enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@127.0.0.1:30301?discport=0"
+WARN [12-04|12:16:09.355] The ipc endpoint is longer than 104 characters.  endpoint="/Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc"
+WARN [12-04|12:16:09.355] IPC opening failed                       url="/Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc" error="listen unix /Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument"
+Fatal: Error starting protocol stack: listen unix /Users/juliocesar/Documents/01 - MestradoITA/01 - Artigos e dissertacoes/Mensagens Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument
+INFO [12-04|12:22:51.867] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [12-04|12:22:51.870] Found deprecated node list file /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [12-04|12:22:51.876] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:22:51.876] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:22:51.878] Allocated cache and file handles         database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-04|12:22:51.991] Opened ancient database                  database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata/ancient readonly=false
+INFO [12-04|12:22:51.998] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:22:52.000] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/ethash count=3
+INFO [12-04|12:22:52.000] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:22:52.000] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:22:52.009] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=1h5m12s
+INFO [12-04|12:22:52.010] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h5m12s
+INFO [12-04|12:22:52.010] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h5m12s
+INFO [12-04|12:22:52.022] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-04|12:22:52.023] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:22:52.023] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:22:52.025] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-04|12:22:52.028] Unclean shutdown detected                booted=2021-12-04T12:16:09-0300 age=6m43s
+INFO [12-04|12:22:52.028] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+INFO [12-04|12:22:52.167] New local node record                    seq=1,638,565,161,316 id=d7401dc51d965909 ip=127.0.0.1 udp=0 tcp=30301
+INFO [12-04|12:22:52.167] Started P2P networking                   self="enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@127.0.0.1:30301?discport=0"
+WARN [12-04|12:22:52.170] The ipc endpoint is longer than 104 characters.  endpoint=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc
+WARN [12-04|12:22:52.170] IPC opening failed                       url=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc error="listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument"
+Fatal: Error starting protocol stack: listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument
+INFO [12-04|12:27:42.323] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [12-04|12:27:42.324] Found deprecated node list file /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [12-04|12:27:42.324] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:27:42.324] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:27:42.325] Allocated cache and file handles         database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-04|12:27:42.500] Opened ancient database                  database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata/ancient readonly=false
+INFO [12-04|12:27:42.501] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:27:42.503] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/ethash count=3
+INFO [12-04|12:27:42.503] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:27:42.504] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:27:42.512] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=1h10m2s
+INFO [12-04|12:27:42.512] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h10m2s
+INFO [12-04|12:27:42.512] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h10m2s
+INFO [12-04|12:27:42.520] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-04|12:27:42.520] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:27:42.520] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:27:42.520] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-04|12:27:42.521] Unclean shutdown detected                booted=2021-12-04T12:16:09-0300 age=11m33s
+WARN [12-04|12:27:42.521] Unclean shutdown detected                booted=2021-12-04T12:22:52-0300 age=4m50s
+INFO [12-04|12:27:42.521] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+INFO [12-04|12:27:42.584] New local node record                    seq=1,638,565,161,317 id=d7401dc51d965909 ip=127.0.0.1 udp=0 tcp=30301
+INFO [12-04|12:27:42.584] Started P2P networking                   self="enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@127.0.0.1:30301?discport=0"
+WARN [12-04|12:27:42.585] The ipc endpoint is longer than 104 characters.  endpoint=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc
+WARN [12-04|12:27:42.585] IPC opening failed                       url=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc error="listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument"
+Fatal: Error starting protocol stack: listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument
+INFO [12-04|12:34:13.469] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [12-04|12:34:13.473] Found deprecated node list file /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [12-04|12:34:13.474] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:34:13.474] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:34:13.474] Allocated cache and file handles         database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-04|12:34:13.563] Opened ancient database                  database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata/ancient readonly=false
+INFO [12-04|12:34:13.564] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:34:13.566] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/ethash count=3
+INFO [12-04|12:34:13.566] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:34:13.566] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:34:13.574] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=1h16m33s
+INFO [12-04|12:34:13.574] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h16m33s
+INFO [12-04|12:34:13.574] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h16m33s
+INFO [12-04|12:34:13.582] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-04|12:34:13.582] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:34:13.582] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:34:13.582] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-04|12:34:13.583] Unclean shutdown detected                booted=2021-12-04T12:16:09-0300 age=18m4s
+WARN [12-04|12:34:13.583] Unclean shutdown detected                booted=2021-12-04T12:22:52-0300 age=11m21s
+WARN [12-04|12:34:13.583] Unclean shutdown detected                booted=2021-12-04T12:27:42-0300 age=6m31s
+INFO [12-04|12:34:13.583] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+INFO [12-04|12:34:13.656] New local node record                    seq=1,638,565,161,318 id=d7401dc51d965909 ip=127.0.0.1 udp=0 tcp=30301
+INFO [12-04|12:34:13.657] Started P2P networking                   self="enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@127.0.0.1:30301?discport=0"
+WARN [12-04|12:34:13.657] The ipc endpoint is longer than 104 characters.  endpoint=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc
+WARN [12-04|12:34:13.657] IPC opening failed                       url=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc error="listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument"
+Fatal: Error starting protocol stack: listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument
+INFO [12-04|12:34:46.345] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [12-04|12:34:46.346] Found deprecated node list file /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [12-04|12:34:46.347] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:34:46.347] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:34:46.347] Allocated cache and file handles         database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-04|12:34:46.428] Opened ancient database                  database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata/ancient readonly=false
+INFO [12-04|12:34:46.429] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:34:46.432] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/ethash count=3
+INFO [12-04|12:34:46.432] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:34:46.432] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:34:46.440] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=1h17m6s
+INFO [12-04|12:34:46.440] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h17m6s
+INFO [12-04|12:34:46.440] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h17m6s
+INFO [12-04|12:34:46.448] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-04|12:34:46.448] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:34:46.448] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:34:46.448] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-04|12:34:46.449] Unclean shutdown detected                booted=2021-12-04T12:16:09-0300 age=18m37s
+WARN [12-04|12:34:46.449] Unclean shutdown detected                booted=2021-12-04T12:22:52-0300 age=11m54s
+WARN [12-04|12:34:46.449] Unclean shutdown detected                booted=2021-12-04T12:27:42-0300 age=7m4s
+WARN [12-04|12:34:46.449] Unclean shutdown detected                booted=2021-12-04T12:34:13-0300 age=33s
+INFO [12-04|12:34:46.449] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+INFO [12-04|12:34:46.521] New local node record                    seq=1,638,565,161,319 id=d7401dc51d965909 ip=127.0.0.1 udp=0 tcp=30301
+INFO [12-04|12:34:46.521] Started P2P networking                   self="enode://abc7620b3c82531110d41ef4c28868f5120309e24f23eab324eba03287704c382a79cfdd3cdf5e53522c69c39c2eeedba528d3234d3d6beab465a465bb82dd46@127.0.0.1:30301?discport=0"
+WARN [12-04|12:34:46.522] The ipc endpoint is longer than 104 characters.  endpoint=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc
+WARN [12-04|12:34:46.522] IPC opening failed                       url=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc error="listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument"
+Fatal: Error starting protocol stack: listen unix /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth.ipc: bind: invalid argument
+INFO [12-04|12:48:32.338] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [12-04|12:48:32.339] Found deprecated node list file /Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [12-04|12:48:32.341] Set global gas cap                       cap=50,000,000
+INFO [12-04|12:48:32.342] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-04|12:48:32.342] Allocated cache and file handles         database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-04|12:48:32.433] Opened ancient database                  database=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/chaindata/ancient readonly=false
+INFO [12-04|12:48:32.435] Initialised chain configuration          config="{ChainID: 1234 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: ethash}"
+INFO [12-04|12:48:32.437] Disk storage enabled for ethash caches   dir=/Users/juliocesar/Documents/01-MestradoITA/01-Artigos_e_dissertacoes/Mensagens-Blockchain/Project/PGP-PKI-main/Example/PB_Private-Blockchain/Node01/geth/ethash count=3
+INFO [12-04|12:48:32.437] Disk storage enabled for ethash DAGs     dir=/Users/juliocesar/Library/Ethash count=2
+INFO [12-04|12:48:32.437] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [12-04|12:48:32.444] Loaded most recent local header          number=239 hash=5d556b..a85732 td=111,396,695 age=1h30m52s
+INFO [12-04|12:48:32.444] Loaded most recent local full block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h30m52s
+INFO [12-04|12:48:32.444] Loaded most recent local fast block      number=239 hash=5d556b..a85732 td=111,396,695 age=1h30m52s
+INFO [12-04|12:48:32.452] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-04|12:48:32.453] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [12-04|12:48:32.453] Switch sync mode from fast sync to full sync 
+INFO [12-04|12:48:32.453] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-04|12:48:32.454] Unclean shutdown detected                booted=2021-12-04T12:16:09-0300 age=32m23s
+WARN [12-04|12:48:32.454] Unclean shutdown detected                booted=2021-12-04T12:22:52-0300 age=25m40s
+WARN [12-04|12:48:32.454] Unclean shutdown detected                booted=2021-12-04T12:27:42-0300 age=20m50s
+WARN [12-04|12:48:32.454] Unclean shutdown detected                booted=2021-12-04T12:34:13-0300 age=14m19s
+WARN [12-04|12:48:32.454] Unclean shutdown detected                booted=2021-12-04T12:34:46-0300 age=13m46s
+INFO [12-04|12:48:32.454] Starting peer-to-peer node               instance=Geth/v1.10.13-stable/darwin-amd64/go1.17.2
+Fatal: Error starting protocol stack: listen tcp :30301: bind: address already in use
