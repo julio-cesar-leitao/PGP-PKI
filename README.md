@@ -17,6 +17,14 @@ $ pip install -r requirements.txt
 ```
 geth --datadir './Node01' --port 30301 --nodiscover --http --http.port '8545' --http.corsdomain '*' --networkid 1234 --allow-insecure-unlock console 2>./Node01/get.log
 ```
+in a second terminal run:
+```
+geth --datadir "./Node02" --port 30302 --nodiscover --networkid 1234 --ipcdisable console 2>./Node02/geth.log
+```
+in a third terminal run:
+```
+geth --datadir "./Node03" --port 30303 --nodiscover --networkid 1234 --ipcdisable console 2>./Node03/geth.log
+```
 4. Run the application in a terminal from the `PB_MOJulio` directory:
 ```
 $ python3 main.py
