@@ -8,15 +8,20 @@ A private blockchain network was created to test the application with `GETH Vers
 
 To run the example, do the following:
 
-1. Run the private blockchain from the `PB_Private-Blockchain` directory:
+1. (Optional) Create and start a virtual enviroment.
+2. Install requirements (in this case is just web3.py):
 ```
-$ geth --datadir './Node01' --port 30301 --nodiscover --http --http.port '8545' --http.corsdomain '*' --networkid 1234 --allow-insecure-unlock console 2>./Node01/get.log
+$ pip install -r requirements.txt
 ```
-2. Run the application from the `PB_MOJulio` directory:
+3. Run the private blockchain in a terminal from the `PB_Private-Blockchain` directory:
+```
+geth --datadir './Node01' --port 30301 --nodiscover --http --http.port '8545' --http.corsdomain '*' --networkid 1234 --allow-insecure-unlock console 2>./Node01/get.log
+```
+4. Run the application in a terminal from the `PB_MOJulio` directory:
 ```
 $ python3 main.py
 ```
-3. Run the application from the `PB_MORicardo` directory:
+5. Run the application in a terminal from the `PB_MORicardo` directory:
 ```
 $ python3 main.py
 ```
