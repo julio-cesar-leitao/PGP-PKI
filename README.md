@@ -13,9 +13,9 @@ To run the example, do the following:
 ```
 $ pip install -r requirements.txt
 ```
-3. Run the private blockchain in a terminal from the `PB_Private-Blockchain` directory:
+3. Run (mining) the private blockchain in a terminal from the `PB_Private-Blockchain` directory:
 ```
-geth --datadir './Node01' --port 30301 --nodiscover --http --http.port '8545' --http.corsdomain '*' --networkid 1234 --allow-insecure-unlock console 2>./Node01/get.log
+geth --datadir './Node01' --mine --miner.threads 1 --port 30301 --nodiscover --http --http.port '8545' --http.corsdomain '*' --networkid 1234 --allow-insecure-unlock console 2>./Node01/get.log
 ```
 in a second terminal run:
 ```
