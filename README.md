@@ -46,7 +46,7 @@ Note that after creating an account, the only person who can modify the elements
 
 Each end user will use an instance of the application located in the [MOnewUser](https://github.com/julio-cesar-leitao/PGP-PKI/tree/main/MOnewUser) directory. This application contains folders:
 1. Messages: To store incoming and outgoing messages.
-2. PGP: To store cryptographic public and private key pairs for the PGP protocol, in the example RSA with 2024 bits was used.
+2. PGP: To store cryptographic public and private key pairs for the PGP protocol, in the example RSA with 2048 bits was used.
 3. Wallet: Stores the public and private keys of the wallets.
 4. env: It is a virtual environment with program dependencies.
 
